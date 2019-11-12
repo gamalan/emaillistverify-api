@@ -1,4 +1,5 @@
 # EmailListVerify PHP Library
+[![Build Status](https://travis-ci.org/gamalan/emaillistverify-api.svg?branch=master)](https://travis-ci.org/gamalan/emaillistverify-api)
 
 This library will allow you to integrate the **EmailListVerify** API in your project.
 
