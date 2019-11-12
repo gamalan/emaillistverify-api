@@ -1,0 +1,33 @@
+{
+    "name": "gamalan/emaillistverify-api",
+    "description": "EmailListVerify API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gamal Abdul Nasser",
+            "email": "gamalanpro@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~8.0",
+        "vlucas/phpdotenv": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gamalan\\EmailListVerify\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Gamalan\\EmailListVerify\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit --do-not-cache-result tests"
+    }
+}
