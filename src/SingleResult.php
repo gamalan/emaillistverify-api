@@ -25,6 +25,8 @@ class SingleResult
     const VALIDATION_DISPOSABLE = 'disposable';
     const VALIDATION_SPAM_TRAP = 'spam_traps';
     const VALIDATION_SYNTAX_ERROR = 'syntax_error';
+    const VALIDATION_INVALID_MX = 'invalid_mx';
+    const VALIDATION_SPAMTRAP_ALT = 'spamtrap';
 
     protected $email, $status;
 
